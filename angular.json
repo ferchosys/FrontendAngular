@@ -58,7 +58,13 @@
                   "maximumError": "4kb"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+              "optimization": true,              
+              "sourceMap": false,              
+              "namedChunks": false,
+              "aot": true,
+              "extractLicenses": true              
+              
             },
             "development": {
               "optimization": false,
@@ -78,7 +84,7 @@
               "buildTarget": "categoria:build:development"
             }
           },
-          "defaultConfiguration": "development"
+          "defaultConfiguration": "production"
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
