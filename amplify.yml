@@ -6,10 +6,7 @@ frontend:
         - npm ci 
     build:
       commands:
-        - npm run build
-     postbuild:
-      commands:
-        - ng serve -o
+        - npm run build    
   artifacts:
     baseDirectory: dist/categoria/browser
     files:
