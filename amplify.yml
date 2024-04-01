@@ -7,6 +7,9 @@ frontend:
     build:
       commands:
         - npm run build
+     postbuild:
+      commands:
+        - ng serve -o
   artifacts:
     baseDirectory: dist/categoria
     files:
