@@ -11,7 +11,7 @@ frontend:
       commands:
         - ng serve -o
   artifacts:
-    baseDirectory: dist/categoria
+    baseDirectory: dist/categoria/browser
     files:
       - '*/'
   cache:
