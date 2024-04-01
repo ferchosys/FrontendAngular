@@ -10,7 +10,7 @@ frontend:
   artifacts:
     baseDirectory: dist/categoria/browser
     files:
-      - '**/'
+      - '**/*'
   cache:
     paths:
       - .npm/**/*
